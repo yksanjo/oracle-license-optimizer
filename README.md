@@ -6,6 +6,12 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
 
+## 📸 Dashboard Preview
+
+![Oracle License Optimizer Dashboard](assets/dashboard-screenshot.svg)
+
+*Interactive dashboard showing license overview, optimization recommendations, and discovered installations.*
+
 ## 🎯 Overview
 
 Oracle License Optimizer helps enterprises:
