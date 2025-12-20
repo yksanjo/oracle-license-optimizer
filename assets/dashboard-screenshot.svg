@@ -1,91 +1,160 @@
-<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="1200" height="800" fill="#f5f5f5"/>
+  <rect width="1400" height="900" fill="#0f172a"/>
   
-  <!-- Header -->
-  <rect width="1200" height="60" fill="#1e3a8a"/>
-  <text x="30" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Oracle License Optimizer</text>
-  <text x="1000" y="40" font-family="Arial, sans-serif" font-size="14" fill="white">Last Scan: 2 hours ago</text>
+  <!-- Header Bar -->
+  <rect width="1400" height="70" fill="#1e293b"/>
+  <text x="40" y="45" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#60a5fa">Oracle License Optimizer</text>
+  <text x="40" y="65" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Enterprise License Management Platform</text>
+  <circle cx="1320" cy="35" r="12" fill="#10b981"/>
+  <text x="1340" y="40" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Live</text>
+  <text x="1200" y="40" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Last Scan: 2h ago</text>
   
-  <!-- Sidebar -->
-  <rect x="0" y="60" width="200" height="740" fill="#ffffff" stroke="#e0e0e0"/>
-  <text x="20" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e3a8a">Dashboard</text>
-  <text x="20" y="140" font-family="Arial, sans-serif" font-size="14" fill="#666">License Discovery</text>
-  <text x="20" y="170" font-family="Arial, sans-serif" font-size="14" fill="#666">Usage Analysis</text>
-  <text x="20" y="200" font-family="Arial, sans-serif" font-size="14" fill="#666">Cost Optimization</text>
-  <text x="20" y="230" font-family="Arial, sans-serif" font-size="14" fill="#666">Compliance</text>
-  <text x="20" y="260" font-family="Arial, sans-serif" font-size="14" fill="#666">Reports</text>
+  <!-- Top Metrics Row -->
+  <rect x="30" y="100" width="320" height="140" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="50" y="130" font-family="Arial, sans-serif" font-size="12" fill="#64748b">TOTAL LICENSES</text>
+  <text x="50" y="165" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#60a5fa">1,247</text>
+  <rect x="50" y="175" width="280" height="4" fill="#1e3a8a" rx="2"/>
+  <rect x="50" y="175" width="224" height="4" fill="#3b82f6" rx="2"/>
+  <text x="50" y="200" font-family="Arial, sans-serif" font-size="11" fill="#10b981">↓ 5% from last month</text>
+  <text x="50" y="215" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Active: 1,189 | Inactive: 58</text>
   
-  <!-- Main Content Area -->
-  <rect x="220" y="80" width="960" height="200" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="240" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a">License Overview</text>
+  <rect x="370" y="100" width="320" height="140" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="390" y="130" font-family="Arial, sans-serif" font-size="12" fill="#64748b">ANNUAL COST</text>
+  <text x="390" y="165" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#f59e0b">$1.65M</text>
+  <text x="390" y="190" font-family="Arial, sans-serif" font-size="11" fill="#ef4444">↑ 3% from last year</text>
+  <text x="390" y="210" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Monthly: $137,500</text>
+  <text x="390" y="225" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Per License: $1,323</text>
   
-  <!-- Stats Cards -->
-  <rect x="240" y="130" width="200" height="120" fill="#e0f2fe" stroke="#0284c7" rx="4"/>
-  <text x="250" y="160" font-family="Arial, sans-serif" font-size="12" fill="#666">Total Licenses</text>
-  <text x="250" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0284c7">1,247</text>
-  <text x="250" y="220" font-family="Arial, sans-serif" font-size="11" fill="#059669">↓ 5% from last month</text>
+  <rect x="710" y="100" width="320" height="140" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="730" y="130" font-family="Arial, sans-serif" font-size="12" fill="#64748b">POTENTIAL SAVINGS</text>
+  <text x="730" y="165" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#10b981">$550K</text>
+  <text x="730" y="190" font-family="Arial, sans-serif" font-size="11" fill="#10b981">33% reduction possible</text>
+  <text x="730" y="210" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Optimization Score: 87/100</text>
+  <text x="730" y="225" font-family="Arial, sans-serif" font-size="11" fill="#64748b">15 recommendations</text>
   
-  <rect x="460" y="130" width="200" height="120" fill="#fef3c7" stroke="#d97706" rx="4"/>
-  <text x="470" y="160" font-family="Arial, sans-serif" font-size="12" fill="#666">Annual Cost</text>
-  <text x="470" y="190" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d97706">$1.65M</text>
-  <text x="470" y="220" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">↑ 3% from last year</text>
+  <rect x="1050" y="100" width="320" height="140" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="1070" y="130" font-family="Arial, sans-serif" font-size="12" fill="#64748b">COMPLIANCE STATUS</text>
+  <text x="1070" y="165" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#10b981">✅ COMPLIANT</text>
+  <text x="1070" y="195" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Risk Level: Low</text>
+  <text x="1070" y="210" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Last Audit: 30 days ago</text>
+  <text x="1070" y="225" font-family="Arial, sans-serif" font-size="11" fill="#10b981">Next Audit: 60 days</text>
   
-  <rect x="680" y="130" width="200" height="120" fill="#d1fae5" stroke="#059669" rx="4"/>
-  <text x="690" y="160" font-family="Arial, sans-serif" font-size="12" fill="#666">Potential Savings</text>
-  <text x="690" y="190" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#059669">$550K</text>
-  <text x="690" y="220" font-family="Arial, sans-serif" font-size="11" fill="#059669">33% reduction</text>
+  <!-- License Distribution Chart -->
+  <rect x="30" y="260" width="660" height="280" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="50" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f1f5f9">License Distribution</text>
   
-  <rect x="900" y="130" width="200" height="120" fill="#fce7f3" stroke="#be185d" rx="4"/>
-  <text x="910" y="160" font-family="Arial, sans-serif" font-size="12" fill="#666">Compliance Status</text>
-  <text x="910" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#be185d">✅ Compliant</text>
-  <text x="910" y="220" font-family="Arial, sans-serif" font-size="11" fill="#059669">Low risk</text>
+  <!-- Pie Chart Visualization -->
+  <circle cx="200" cy="420" r="80" fill="none" stroke="#334155" stroke-width="30"/>
+  <circle cx="200" cy="420" r="80" fill="none" stroke="#3b82f6" stroke-width="30" stroke-dasharray="251.2 125.6" stroke-dashoffset="0" transform="rotate(-90 200 420)"/>
+  <circle cx="200" cy="420" r="80" fill="none" stroke="#10b981" stroke-width="30" stroke-dasharray="188.4 188.4" stroke-dashoffset="-251.2" transform="rotate(-90 200 420)"/>
+  <circle cx="200" cy="420" r="80" fill="none" stroke="#f59e0b" stroke-width="30" stroke-dasharray="125.6 251.2" stroke-dashoffset="-439.6" transform="rotate(-90 200 420)"/>
+  
+  <rect x="320" y="340" width="12" height="12" fill="#3b82f6"/>
+  <text x="340" y="352" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Processor License</text>
+  <text x="340" y="368" font-family="Arial, sans-serif" font-size="11" fill="#64748b">623 licenses (50%) - $825K</text>
+  
+  <rect x="320" y="380" width="12" height="12" fill="#10b981"/>
+  <text x="340" y="392" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Named User Plus</text>
+  <text x="340" y="408" font-family="Arial, sans-serif" font-size="11" fill="#64748b">468 licenses (38%) - $450K</text>
+  
+  <rect x="320" y="420" width="12" height="12" fill="#f59e0b"/>
+  <text x="340" y="432" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Application License</text>
+  <text x="340" y="448" font-family="Arial, sans-serif" font-size="11" fill="#64748b">156 licenses (12%) - $375K</text>
   
   <!-- Optimization Recommendations -->
-  <rect x="220" y="300" width="960" height="300" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="240" y="330" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a">Optimization Recommendations</text>
+  <rect x="710" y="260" width="660" height="280" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="730" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f1f5f9">Top Optimization Opportunities</text>
   
-  <!-- Recommendation Items -->
-  <rect x="240" y="350" width="920" height="60" fill="#f0f9ff" stroke="#0284c7" rx="4"/>
-  <text x="260" y="375" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">Reduce Production CPUs</text>
-  <text x="260" y="395" font-family="Arial, sans-serif" font-size="12" fill="#666">Current: 8 CPUs | Recommended: 6 CPUs</text>
-  <text x="260" y="410" font-family="Arial, sans-serif" font-size="12" fill="#059669">Potential Savings: $300,000/year (25% reduction)</text>
+  <!-- Recommendation 1 -->
+  <rect x="730" y="310" width="620" height="70" fill="#0f172a" stroke="#10b981" rx="6"/>
+  <text x="750" y="335" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#10b981">💰 Reduce Production CPUs</text>
+  <text x="750" y="355" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Current: 8 CPUs | Recommended: 6 CPUs | Impact: High</text>
+  <text x="750" y="370" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Potential Savings: $300,000/year (25% reduction)</text>
+  <rect x="1250" y="325" width="80" height="30" fill="#10b981" rx="4"/>
+  <text x="1280" y="345" font-family="Arial, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" font-weight="bold">APPLY</text>
   
-  <rect x="240" y="420" width="920" height="60" fill="#f0f9ff" stroke="#0284c7" rx="4"/>
-  <text x="260" y="445" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">Consolidate Development Environment</text>
-  <text x="260" y="465" font-family="Arial, sans-serif" font-size="12" fill="#666">Merge 3 dev databases into 1</text>
-  <text x="260" y="480" font-family="Arial, sans-serif" font-size="12" fill="#059669">Potential Savings: $150,000/year</text>
+  <!-- Recommendation 2 -->
+  <rect x="730" y="390" width="620" height="70" fill="#0f172a" stroke="#10b981" rx="6"/>
+  <text x="750" y="415" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#10b981">💰 Consolidate Development</text>
+  <text x="750" y="435" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Merge 3 dev databases into 1 | Impact: Medium</text>
+  <text x="750" y="450" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Potential Savings: $150,000/year</text>
+  <rect x="1250" y="405" width="80" height="30" fill="#10b981" rx="4"/>
+  <text x="1280" y="425" font-family="Arial, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" font-weight="bold">APPLY</text>
   
-  <rect x="240" y="490" width="920" height="60" fill="#f0f9ff" stroke="#0284c7" rx="4"/>
-  <text x="260" y="515" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">Optimize User Licenses</text>
-  <text x="260" y="535" font-family="Arial, sans-serif" font-size="12" fill="#666">Review and reduce unused Named User Plus licenses</text>
-  <text x="260" y="550" font-family="Arial, sans-serif" font-size="12" fill="#059669">Potential Savings: $100,000/year</text>
+  <!-- Recommendation 3 -->
+  <rect x="730" y="470" width="620" height="70" fill="#0f172a" stroke="#10b981" rx="6"/>
+  <text x="750" y="495" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#10b981">💰 Optimize User Licenses</text>
+  <text x="750" y="515" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Review and reduce unused Named User Plus licenses | Impact: Medium</text>
+  <text x="750" y="530" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Potential Savings: $100,000/year</text>
+  <rect x="1250" y="485" width="80" height="30" fill="#10b981" rx="4"/>
+  <text x="1280" y="505" font-family="Arial, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" font-weight="bold">APPLY</text>
   
-  <!-- Discovered Installations -->
-  <rect x="220" y="620" width="960" height="160" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="240" y="650" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a">Discovered Installations</text>
+  <!-- Discovered Installations Table -->
+  <rect x="30" y="560" width="1340" height="320" fill="#1e293b" stroke="#334155" rx="8"/>
+  <text x="50" y="590" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f1f5f9">Discovered Oracle Installations</text>
   
-  <!-- Table Headers -->
-  <rect x="240" y="670" width="920" height="30" fill="#f3f4f6"/>
-  <text x="260" y="690" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Product</text>
-  <text x="400" y="690" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Version</text>
-  <text x="550" y="690" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">CPUs</text>
-  <text x="650" y="690" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Licenses</text>
-  <text x="750" y="690" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Status</text>
+  <!-- Table Header -->
+  <rect x="50" y="610" width="1300" height="35" fill="#0f172a" rx="4"/>
+  <text x="70" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">PRODUCT</text>
+  <text x="250" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">VERSION</text>
+  <text x="400" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">ENVIRONMENT</text>
+  <text x="550" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">CPUs</text>
+  <text x="650" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">LICENSE TYPE</text>
+  <text x="800" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">ANNUAL COST</text>
+  <text x="950" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">STATUS</text>
+  <text x="1100" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">LAST SCAN</text>
   
   <!-- Table Rows -->
-  <line x1="240" y1="700" x2="1160" y2="700" stroke="#e5e7eb"/>
-  <text x="260" y="720" font-family="Arial, sans-serif" font-size="12" fill="#111">Oracle Database 19c</text>
-  <text x="400" y="720" font-family="Arial, sans-serif" font-size="12" fill="#666">19.17.0</text>
-  <text x="550" y="720" font-family="Arial, sans-serif" font-size="12" fill="#666">8</text>
-  <text x="650" y="720" font-family="Arial, sans-serif" font-size="12" fill="#666">Processor</text>
-  <text x="750" y="720" font-family="Arial, sans-serif" font-size="12" fill="#059669">✅ Active</text>
+  <rect x="50" y="655" width="1300" height="40" fill="#0f172a" rx="4"/>
+  <text x="70" y="675" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Oracle Database 19c</text>
+  <text x="70" y="690" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Production Database</text>
+  <text x="250" y="680" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">19.17.0</text>
+  <rect x="400" y="665" width="60" height="20" fill="#ef4444" rx="3"/>
+  <text x="415" y="678" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">PROD</text>
+  <text x="550" y="680" font-family="Arial, sans-serif" font-size="12" fill="#f1f5f9">8</text>
+  <text x="650" y="680" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Processor</text>
+  <text x="800" y="680" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">$480,000</text>
+  <rect x="950" y="665" width="70" height="20" fill="#10b981" rx="3"/>
+  <text x="985" y="678" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">ACTIVE</text>
+  <text x="1100" y="680" font-family="Arial, sans-serif" font-size="11" fill="#64748b">2 hours ago</text>
   
-  <line x1="240" y1="740" x2="1160" y2="740" stroke="#e5e7eb"/>
-  <text x="260" y="760" font-family="Arial, sans-serif" font-size="12" fill="#111">Oracle WebLogic Server</text>
-  <text x="400" y="760" font-family="Arial, sans-serif" font-size="12" fill="#666">14.1.1</text>
-  <text x="550" y="760" font-family="Arial, sans-serif" font-size="12" fill="#666">2</text>
-  <text x="650" y="760" font-family="Arial, sans-serif" font-size="12" fill="#666">Processor</text>
-  <text x="750" y="760" font-family="Arial, sans-serif" font-size="12" fill="#059669">✅ Active</text>
+  <rect x="50" y="705" width="1300" height="40" fill="#0f172a" rx="4"/>
+  <text x="70" y="725" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Oracle WebLogic Server</text>
+  <text x="70" y="740" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Application Server</text>
+  <text x="250" y="730" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">14.1.1</text>
+  <rect x="400" y="715" width="60" height="20" fill="#f59e0b" rx="3"/>
+  <text x="415" y="728" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">STAGE</text>
+  <text x="550" y="730" font-family="Arial, sans-serif" font-size="12" fill="#f1f5f9">2</text>
+  <text x="650" y="730" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Processor</text>
+  <text x="800" y="730" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">$120,000</text>
+  <rect x="950" y="715" width="70" height="20" fill="#10b981" rx="3"/>
+  <text x="985" y="728" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">ACTIVE</text>
+  <text x="1100" y="730" font-family="Arial, sans-serif" font-size="11" fill="#64748b">2 hours ago</text>
+  
+  <rect x="50" y="755" width="1300" height="40" fill="#0f172a" rx="4"/>
+  <text x="70" y="775" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Oracle E-Business Suite</text>
+  <text x="70" y="790" font-family="Arial, sans-serif" font-size="11" fill="#64748b">ERP System</text>
+  <text x="250" y="780" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">12.2.11</text>
+  <rect x="400" y="765" width="60" height="20" fill="#ef4444" rx="3"/>
+  <text x="415" y="778" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">PROD</text>
+  <text x="550" y="780" font-family="Arial, sans-serif" font-size="12" fill="#f1f5f9">4</text>
+  <text x="650" y="780" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Processor</text>
+  <text x="800" y="780" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">$240,000</text>
+  <rect x="950" y="765" width="70" height="20" fill="#10b981" rx="3"/>
+  <text x="985" y="778" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">ACTIVE</text>
+  <text x="1100" y="780" font-family="Arial, sans-serif" font-size="11" fill="#64748b">2 hours ago</text>
+  
+  <rect x="50" y="805" width="1300" height="40" fill="#0f172a" rx="4"/>
+  <text x="70" y="825" font-family="Arial, sans-serif" font-size="13" fill="#f1f5f9">Oracle Database 12c</text>
+  <text x="70" y="840" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Development Database</text>
+  <text x="250" y="830" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">12.2.0.1</text>
+  <rect x="400" y="815" width="60" height="20" fill="#10b981" rx="3"/>
+  <text x="415" y="828" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">DEV</text>
+  <text x="550" y="830" font-family="Arial, sans-serif" font-size="12" fill="#f1f5f9">4</text>
+  <text x="650" y="830" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Processor</text>
+  <text x="800" y="830" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">$180,000</text>
+  <rect x="950" y="815" width="70" height="20" fill="#64748b" rx="3"/>
+  <text x="985" y="828" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">IDLE</text>
+  <text x="1100" y="830" font-family="Arial, sans-serif" font-size="11" fill="#64748b">2 hours ago</text>
 </svg>
-
